@@ -43,5 +43,5 @@ jobs:
         image: bartofzo013/kwetter-frontend
         tags: latest
         registry: docker.io
-        username: ${{ secrets.USER }}
+        username: ${{ secrets.DOCKER_USER }}
         password: ${{ secrets.DOCKER_PASSWORD }}
